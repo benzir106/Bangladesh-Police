@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bangladesh Police</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_pnone_number">Enter Your Pnone Number</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="login">login</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="foegot_password_recover">Foegot Password? Recover</string>
+    <string name="here">here</string>
+    <string name="navigation_open">navigation Open</string>
+    <string name="navigation_close">navigation Close</string>
+</resources>

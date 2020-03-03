@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/polish"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_to_continue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/EmailId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/enter_your_email"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:drawableRight="@drawable/ic_check_black_24dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:hint="@string/enter_your_password"
+            android:drawableRight="@drawable/ic_remove_red_eye_black_24dp"
+
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/logID"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/login"
+        android:textSize="15dp"
+        android:textColor="#F8EFEF"
+        android:background="@drawable/loginebt"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/creatId"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/create_an_account"
+        android:textColor="#F8EFEF"
+        android:textSize="10sp"
+        android:background="@drawable/loginebt"
+        android:backgroundTint="#FF5722"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/foegot_password_recover"
+            android:textColor="#0E0000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/here"
+            android:textColor="#F00505"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/newgen"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</LinearLayout>
